@@ -173,7 +173,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"BaseERC20Factory.sol": "BaseERC20Factory"
+			"smart-contracts/multichain-contracts/BaseERC20Factory.sol": "BaseERC20Factory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -182,7 +182,7 @@
 		},
 		"optimizer": {
 			"enabled": true,
-			"runs": 2
+			"runs": 20000000
 		},
 		"remappings": []
 	},
@@ -323,7 +323,7 @@
 				"dweb:/ipfs/QmNNCeng6d5eRPDn6tkWSQhjE39XWfQEfjA63rRwHmr1iH"
 			]
 		},
-		"BaseERC20.sol": {
+		"smart-contracts/multichain-contracts/BaseERC20.sol": {
 			"keccak256": "0x85129f60d8b9b038dbfd34bdf75eb1fd7e3be6ab68f963b3ed0fefb78a23c2f3",
 			"license": "MIT",
 			"urls": [
@@ -331,7 +331,7 @@
 				"dweb:/ipfs/QmXGQBM92NjDpMoDiVD1em8hYnU1dpbryitgFgs5EPs3AC"
 			]
 		},
-		"BaseERC20Factory.sol": {
+		"smart-contracts/multichain-contracts/BaseERC20Factory.sol": {
 			"keccak256": "0x79357ccd44172d6ec65d1eccc7947fbee0621b5f4172e710b50c434a34a40359",
 			"license": "MIT",
 			"urls": [
@@ -339,7 +339,7 @@
 				"dweb:/ipfs/QmPdxUP2PfWz6YviNSKsqZ1mmgjfiwEdns7Gq3TC3yEAhW"
 			]
 		},
-		"interfaces/ILayerZeroEndpoint.sol": {
+		"smart-contracts/multichain-contracts/interfaces/ILayerZeroEndpoint.sol": {
 			"keccak256": "0xe9617a9f6db351b6ac4c9d5b1097798af59ad7f813e370e8cf69bb44addd8548",
 			"license": "MIT",
 			"urls": [
@@ -347,7 +347,7 @@
 				"dweb:/ipfs/QmWpYa73LcL3FGtd3EA9U5UBhyRgrRjvkebrBDPxjTLj2p"
 			]
 		},
-		"interfaces/ILayerZeroReceiver.sol": {
+		"smart-contracts/multichain-contracts/interfaces/ILayerZeroReceiver.sol": {
 			"keccak256": "0x909bf72002c91806f39a64172c12b4188219e8649deefbe8d862604d4f9d3faf",
 			"license": "MIT",
 			"urls": [
@@ -355,7 +355,7 @@
 				"dweb:/ipfs/QmS51GHejUcqgU7Zum2GHtz6bduzRFT9fFnFfCLZW3ttUe"
 			]
 		},
-		"interfaces/ILayerZeroUserApplicationConfig.sol": {
+		"smart-contracts/multichain-contracts/interfaces/ILayerZeroUserApplicationConfig.sol": {
 			"keccak256": "0xe3e50134e39aa3c0f916447d36367970c6e4df972d488b794227e0b052ce80d5",
 			"license": "MIT",
 			"urls": [
@@ -363,7 +363,7 @@
 				"dweb:/ipfs/QmQz9oaKnAKb9MGbtsoRJXWddKeSWJqaP1zBvFKqokB97h"
 			]
 		},
-		"lzApp/LzApp.sol": {
+		"smart-contracts/multichain-contracts/lzApp/LzApp.sol": {
 			"keccak256": "0x9f057e6b7c9006828f7711122743dd068225d3d331989a6660a8f964b5977a1e",
 			"license": "MIT",
 			"urls": [
@@ -371,7 +371,7 @@
 				"dweb:/ipfs/QmX2rDDY8i7Jtxo26EqWNy5JNudNCvsYkAQcmDPCe3gAqL"
 			]
 		},
-		"lzApp/NonblockingLzApp.sol": {
+		"smart-contracts/multichain-contracts/lzApp/NonblockingLzApp.sol": {
 			"keccak256": "0x2afd4980a5850f45f2c4d7ec44d77b292a51b80f847566479548f89572065311",
 			"license": "MIT",
 			"urls": [
@@ -379,7 +379,7 @@
 				"dweb:/ipfs/QmdU63mUurrTDY9ek8nLADgrhPxMxTvUGdyVPbhpVQ6MAm"
 			]
 		},
-		"lzContracts/IOFT.sol": {
+		"smart-contracts/multichain-contracts/lzContracts/IOFT.sol": {
 			"keccak256": "0x102ab1f2484ffa58d3b913e469529e10a4843c655c529c9614468d1e9cf0ff8c",
 			"license": "MIT",
 			"urls": [
@@ -387,7 +387,7 @@
 				"dweb:/ipfs/Qmcf4khMQ8dpvDrogU2KEWd2qwwRzPcdQFoRePuB2aczT1"
 			]
 		},
-		"lzContracts/IOFTCore.sol": {
+		"smart-contracts/multichain-contracts/lzContracts/IOFTCore.sol": {
 			"keccak256": "0xc19c158682e42cad701a6c1f70011b039a2f928b3b491377af981bd5ffebbab8",
 			"license": "MIT",
 			"urls": [
@@ -395,7 +395,7 @@
 				"dweb:/ipfs/QmY5C55jxN56AvfihRyusQyAuQvh2hqRjKduG4bZkXUP2Y"
 			]
 		},
-		"lzContracts/OFT.sol": {
+		"smart-contracts/multichain-contracts/lzContracts/OFT.sol": {
 			"keccak256": "0xeac979059b14a25f459e7fb7b69cdeea3171d41a996b4f61e5e91105c6be9f5b",
 			"license": "MIT",
 			"urls": [
@@ -403,7 +403,7 @@
 				"dweb:/ipfs/QmSG4Dmu2KfsqZLiZ6oAh59GL5VVKeRXDxgqknpnh42L2F"
 			]
 		},
-		"lzContracts/OFTCore.sol": {
+		"smart-contracts/multichain-contracts/lzContracts/OFTCore.sol": {
 			"keccak256": "0xa51bb304640b75f3b68c9a121f9d69c87d266b99de9ace2a5729c709a791a157",
 			"license": "MIT",
 			"urls": [
@@ -411,7 +411,7 @@
 				"dweb:/ipfs/QmP3ax15ado3Nf2ngSXd3wU9Uz77AEhjq1Renq6k8dmsCT"
 			]
 		},
-		"util/BytesLib.sol": {
+		"smart-contracts/multichain-contracts/util/BytesLib.sol": {
 			"keccak256": "0x2255aadad70e87ed42b158776330175644b07fbbc7e77ed32cd6330974abbcee",
 			"license": "Unlicense",
 			"urls": [
@@ -419,7 +419,7 @@
 				"dweb:/ipfs/QmWbr9ASJpVyU3y1muwuaFbKMQAdseh5xGw8E8vCFpGZmd"
 			]
 		},
-		"util/ExcessivelySafeCall.sol": {
+		"smart-contracts/multichain-contracts/util/ExcessivelySafeCall.sol": {
 			"keccak256": "0x23942250ddd277c443fa27c6b4ab51e6b3b5e654548b6b9e8d785a88ebec4dfe",
 			"license": "MIT OR Apache-2.0",
 			"urls": [

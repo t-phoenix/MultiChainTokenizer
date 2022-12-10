@@ -2,26 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
-import { useContractReads } from "wagmi";
-import { BaseERC20FactoryABI } from "../contractABI/FactoryABI";
+import ListToken from "../components/list";
 
-const BaseERC20FactoryGoerli = {
-  address: "0x978e6e603d33380d3cD02AABcA0F44970b23BcBF",
-  abi: BaseERC20FactoryABI,
-};
 
-export default function Home() {
-  const { data, isError, isFetched } = useContractReads({
-    contracts: [
-      {
-        ...BaseERC20FactoryGoerli,
-        functionName: "getAllBaseTokens",
-      },
-    ],
-  });
-  console.log("Contract isFethced?", isFetched);
-  console.log("Base Contract data:", data);
-  console.log("Error?", isError);
+export default function Home({ data}) {
+
+  
+  
 
   return (
     <div className={styles.container}>
@@ -36,19 +23,12 @@ export default function Home() {
           CREATE NEW ERC20
         </button>
 
-        <p className={styles.description}>Base ERC20 Tokens</p>
+        <ListToken />
 
-        <div className={styles.grid}>
-          <p>Token: {isFetched}</p>
-          {/* {data && data[0].map((x) => {
-            <a href="/token" className={styles.card}>
-              <h2>Token</h2>
-              <p></p>
-              <p>contract</p>
-            </a>
-          })} */}
-        </div>
+        
       </main>
     </div>
   );
 }
+
+

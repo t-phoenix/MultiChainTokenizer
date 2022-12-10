@@ -1,0 +1,39 @@
+Navigation Bar is Already Complete 
+
+Content Section Needs pages 
+
+Home Page:
+Button To Create New Base Token and New Other Token (Navigate to Form Screen)
+List of Token Projects for Base Tokens and Other Tokens (Each Token Card Navigate to its Token Detail Screen) 
+Each Card contains Token Details: Name, symbol, supply, contract-address
+Each card when clicked should route to its more detail screen (dynamically)
+Hint: Create Dummy data for cards if needed
+
+
+Form Screen to create new token:
+Enter Token Name
+Enter Symbol 
+Enter Mint Amount
+Submit Button (submit should print the Entererd inputs in console, and show transaction detail popup)
+
+
+
+Transaction Detail Popup Component 
+Transaction Hash, success/ Error Message
+
+
+
+Each Token Card Screen - Token Screen:
+Token Details from list screen (should be dynamic, depending on which card from the token list user clicks)
+Details 
+div1 = Transfer function:
+2 input: address, amount
+1 button: send,
+
+div2 = SetTrustedRemote function:
+2 input: remote-address, chainid(value)
+1 button: sign  
+
+
+
+

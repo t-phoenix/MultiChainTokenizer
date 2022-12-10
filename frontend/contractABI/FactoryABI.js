@@ -1,4 +1,5 @@
 //baseFactory contract goerli: 0x978e6e603d33380d3cD02AABcA0F44970b23BcBF
+//otherERC20 Factory contract goerli: 0xBc87f2708A5D49A15Fec09439be26327FB93159C
 
 export const BaseERC20FactoryABI = [
 	{

@@ -19,7 +19,7 @@ export default function Navbar({}) {
     
     <h1>MultiChain Tokenizer </h1>
     <div style={{display: "flex", flexDirection: "row", alignItems: "center",}}>
-        {address && <ul style={{margin: 12}}>Network:{chain.name}</ul>}
+        {address && <ul style={{margin: 12}}>Network: {chain.name}</ul>}
         <Web3Button />
     </div>
     
